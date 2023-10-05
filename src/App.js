@@ -4,7 +4,7 @@ import './style.css'
 import './bootstrap.min.css'
 
 // import MyForm from './MyForm';
-//import NameDetails from './NameDetails';
+import NameDetails from './NameDetails';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       {/* <Search/> */}
      {/* <NameDetails /> */}
       <Routes>
-        {/* <Route path="/login"  element={<MyForm />}/> */}
+         <Route path="/"  element={<NameDetails />}/> 
         {/* <Route path="/exam"  element={<Example />}/> */}
         {/* <Route path="/resum" element={<ResumeUpload />}/>
         <Route path="/doc"  element={<Documents />}/> */}
