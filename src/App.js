@@ -4,7 +4,7 @@ import './style.css'
 import './bootstrap.min.css'
 
 // import MyForm from './MyForm';
-import NameDetails from './NameDetails';
+//import NameDetails from './NameDetails';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     </header>
     <div align="center"> <a href="/login" className="cLink">Login  Account</a></div>
       {/* <Search/> */}
-      <NameDetails />
+     {/* <NameDetails /> */}
       <Routes>
         {/* <Route path="/login"  element={<MyForm />}/> */}
         {/* <Route path="/exam"  element={<Example />}/> */}
