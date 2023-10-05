@@ -26,7 +26,7 @@ function App() {
         {/* <Route path="/resum" element={<ResumeUpload />}/>
         <Route path="/doc"  element={<Documents />}/> */}
        
-      </Routes>franss
+      </Routes>
     </div>
   
   </Router>
